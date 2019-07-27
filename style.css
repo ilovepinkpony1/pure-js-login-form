@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+header {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.register-form {
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+}
+
+.form-header_text {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1.25rem;
+  padding:  20px;
+  background: #33b5e6;
+  color: #fff;
+}
+
+.form-input_wrapper {
+  position: relative;
+  margin: 0px 40px;
+  margin-top: 40px;
+}
+
+.form-input {
+  border: none;
+  border-bottom: 1px solid rgb(128, 128, 128, 0.4);
+  width: 300px;
+  height: 50px;
+  outline: none;
+  font-size: .75rem;
+  text-align: center;
+  transition: 0.5s all ease;
+}
+
+.form-input::placeholder {
+  text-transform: uppercase;
+}
+
+.form-input:hover {
+  border-bottom: 1px solid rgb(128, 128, 128);
+}
+
+.sex-check_wrapper {
+  display: flex;
+  flex-direction: column;
+  margin: 40px;
+}
+
+.sex-check_header {
+  text-align: center;
+  font-size: 1.25rem;
+  margin-bottom: 20px;
+  color: rgb(83, 83, 83);
+  text-transform: capitalize;
+}
+
+.sex-check_checkboxes-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.sex-check_checkboxes-wrapper label {
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+.sex-check_checkboxes-wrapper div {
+  display: flex;
+}
+
+.register-form_submit-button {
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
+  background-color: #33b5e5;
+  color: #fff;
+  text-transform: uppercase;
+  margin: 40px;
+  border-radius: 3px;
+  padding: 10px 0;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s all ease;
+}
+
+.register-form_submit-button:hover {
+  box-shadow: 0 5px 10px 0 rgba(0,0,0,.16), 0 5px 15px 0 rgba(0,0,0,.12);
+}
+
+.register-form_submit-button:disabled {
+  color: rgb(129, 123, 123);
+}
+
+.valid{
+  color: rgb(98, 172, 98);
+}
+
+.not-valid::placeholder {
+  color: red;
+}
+
+/* ------------------------------*/
+/* registraion form classes end */
+/* ------------------------------*/
+
+main {
+  margin-top: 30px;
+  display: flex;
+}
+
+.post:hover {
+  box-shadow: 0 0 5 10px rgb(78, 78, 78, 0.5);
+}
+
+.post-title {
+  text-align: center;
+  text-transform: uppercase;
+  margin: 15px 0;
+}
+
+.post-text {
+  margin: 0 20px
+}

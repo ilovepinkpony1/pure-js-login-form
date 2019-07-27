@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+  <title>login-form</title>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <form action="#" method="get" class="register-form">
+
+          <p class="form-header_text">
+            register
+          </p>
+
+        <div class="form-input_wrapper">
+          <input 
+            type="text"
+            name="form-input_name"
+            class="form-input input_name"
+            placeholder="full name"
+          >
+        </div>
+
+        <div class="form-input_wrapper">
+          <input 
+            type="email"
+            name="form-input_email"
+            class="form-input input_email"
+            placeholder="E-mail"
+          >
+        </div>
+
+        <div class="form-input_wrapper">
+          <input 
+            type="number"
+            name="form-input_number"
+            class="form-input input_number"
+            placeholder="phone number"
+          >
+        </div>
+
+        <div class="sex-check_wrapper">
+          <p class="sex-check_header">
+            gender
+          </p>
+
+          <div class="sex-check_checkboxes-wrapper">
+            <div class="sex-check_male-wrapper">
+              <input 
+                type="checkbox" 
+                name="sex-check_male" 
+                id="sex-check_male" 
+                class="sex-checkbox"
+              >
+              <label for="sex-check_male">
+                male
+              </label>
+            </div>
+            
+            <div class="sex-check_female-wrapper">
+              <input 
+              type="checkbox" 
+              name="sex-check_female" 
+              id="sex-check_female"
+              class="sex-checkbox"
+              >
+              <label for="sex-check_female">
+                female
+              </label>
+            </div>
+            
+            <div class="sex-check_no-options-wrapper">
+              <input 
+              type="checkbox" 
+              name="sex-check_no-options" 
+              id="sex-check_no-options"
+              class="sex-checkbox"
+              >
+              <label for="sex-check_no-options">
+                non-binary
+              </label>
+            </div>
+          </div>
+
+        </div>
+
+        <button 
+          type="button"
+          class="register-form_submit-button"
+          disabled
+        >
+          submit
+        </button>
+      </form>
+    </header>
+  </div>
+  <main>
+  </main>
+  <script src="main.js"></script>
+  <script src="constants.js"></script>
+</body>
+</html>
